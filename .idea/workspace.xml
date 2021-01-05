@@ -1,64 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a097ca6-3cf7-41cf-8b2b-e9099307f29e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/javaTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/hacker/Sales_by_Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/DailyTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/FindAllAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/FindAnagramMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/JewelsAndStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/LicenseKeyFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRoom2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MergeInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MissingRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MoveZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/backTracking/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/backTracking/LetterCombi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/backTracking/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/backTracking/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/UniquePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/DiameterOfBinaryTree_BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/DiameterOfBinaryTree_DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_dfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_dfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_bfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/WordLadder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/WordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/linked_list/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/linked_list/MergeKSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/linked_list/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/LongestSubMostTwoDist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/UniqueEamilAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.factorypath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/thread/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/thread/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/algorithms/Array_duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/algorithms/Array_largest_smallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/algorithms/Array_missing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/algorithms/Array_pairs_sum_equal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/util/BitSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/test.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzang/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/CyclicRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/CyclicRotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +62,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.14104372" />
+    <property name="project.structure.proportion" value="0.20758927" />
+    <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="Application.LetterCombi">
@@ -177,12 +140,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.CoinChange" />
       <item itemvalue="Application.LongestIncreasingSubsequence" />
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.Subsets" />
       <item itemvalue="Application.LetterCombi" />
+      <item itemvalue="Spring Boot.TestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -230,10 +193,11 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="246" width="897" height="669" key="#Project_Structure" timestamp="1602079216189">
-      <screen x="0" y="23" width="1920" height="1097" />
+    <state x="721" y="247" width="897" height="669" key="#Project_Structure" timestamp="1609834985608">
+      <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state x="721" y="246" width="897" height="669" key="#Project_Structure/0.23.1920.1097@0.23.1920.1097" timestamp="1602079216189" />
+    <state x="721" y="247" key="#Project_Structure/0.25.1920.1090@0.25.1920.1090" timestamp="1609834985608" />
     <state x="677" y="243" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602077004596">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
@@ -250,46 +214,46 @@
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="475" height="466" key="DebuggerActiveHint/0.25.1920.1090@0.25.1920.1090" timestamp="1609659432228" />
-    <state width="1358" height="350" key="GridCell.Tab.0.bottom" timestamp="1609825240539">
+    <state width="1358" height="284" key="GridCell.Tab.0.bottom" timestamp="1609834994388">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1358" height="350" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1609825240539" />
-    <state width="1358" height="350" key="GridCell.Tab.0.center" timestamp="1609825240538">
+    <state width="1358" height="284" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994388" />
+    <state width="1358" height="284" key="GridCell.Tab.0.center" timestamp="1609834994388">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401577" />
-    <state width="1358" height="350" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1609825240538" />
-    <state width="1358" height="350" key="GridCell.Tab.0.left" timestamp="1609825240537">
+    <state width="1358" height="284" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994388" />
+    <state width="1358" height="284" key="GridCell.Tab.0.left" timestamp="1609834994387">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401577" />
-    <state width="1358" height="350" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1609825240537" />
-    <state width="1358" height="350" key="GridCell.Tab.0.right" timestamp="1609825240539">
+    <state width="1358" height="284" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994387" />
+    <state width="1358" height="284" key="GridCell.Tab.0.right" timestamp="1609834994388">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1358" height="350" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1609825240539" />
-    <state width="1358" height="350" key="GridCell.Tab.1.bottom" timestamp="1609825185112">
+    <state width="1358" height="284" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994388" />
+    <state width="1358" height="350" key="GridCell.Tab.1.bottom" timestamp="1609834994386">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401579" />
-    <state width="1358" height="350" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1609825185112" />
-    <state width="1358" height="350" key="GridCell.Tab.1.center" timestamp="1609825185112">
+    <state width="1358" height="350" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994386" />
+    <state width="1358" height="350" key="GridCell.Tab.1.center" timestamp="1609834994385">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.center/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1358" height="350" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1609825185112" />
-    <state width="1358" height="350" key="GridCell.Tab.1.left" timestamp="1609825185112">
+    <state width="1358" height="350" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994385" />
+    <state width="1358" height="350" key="GridCell.Tab.1.left" timestamp="1609834994385">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.left/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1358" height="350" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1609825185112" />
-    <state width="1358" height="350" key="GridCell.Tab.1.right" timestamp="1609825185112">
+    <state width="1358" height="350" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994385" />
+    <state width="1358" height="350" key="GridCell.Tab.1.right" timestamp="1609834994386">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.right/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401579" />
-    <state width="1358" height="350" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1609825185112" />
+    <state width="1358" height="350" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1609834994385" />
     <state width="1358" height="334" key="GridCell.Tab.2.bottom" timestamp="1602081401579">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
