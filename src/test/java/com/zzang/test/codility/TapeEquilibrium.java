@@ -1,5 +1,6 @@
 package com.zzang.test.codility;
 
+import java.util.Arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -13,12 +14,14 @@ public class TapeEquilibrium {
     public void solution() {
         int A[] = {3,1,2,4,3};
 
-        int size = A.length;
         int res = 1000000;
+        int front = 0;
+        int rear = 0;
+        for (int s: A) rear += s;
 
         for (int i = 0; i < A.length-1; i++) {
-            int front = front(A, i);
-            int rear = rear(A, i, size);
+            front += A[i];
+            rear -= A[i];
             int sum = front - rear;
             sum = sum > 0 ? sum : sum * -1;
             System.out.println("front : " + front);
@@ -30,25 +33,5 @@ public class TapeEquilibrium {
 
 
         Assert.assertTrue(res == 1);
-    }
-
-    private int front(int A[], int index) {
-        int sum = 0;
-
-        while (index >= 0) {
-            sum += A[index--];
-        }
-
-        return sum;
-    }
-
-    private int rear(int A[], int index, int size) {
-        int sum = 0;
-
-        for (int i = index+1; i < size; i++) {
-            sum += A[i];
-        }
-
-        return sum;
     }
 }

@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class UniqueEamilAddress {
+
   public static void main(String[] args) {
     String[] emails = {"test.email+alex@leetcode.com",
         "test.e.mail+bob.cathy@leetcode.com",
@@ -23,12 +24,12 @@ public class UniqueEamilAddress {
   }
 
   private static String getDomainName(String email) {
-    return email.substring(email.indexOf('@')+1);
+    return email.substring(email.indexOf('@') + 1);
   }
 
   private static String getLocalName(String email) {
     StringBuilder sb = new StringBuilder();
-    for (int i=0; i < email.length(); i++) {
+    for (int i = 0; i < email.length(); i++) {
       if (email.charAt(i) == '.') {
         continue;
       }
@@ -48,19 +49,19 @@ public class UniqueEamilAddress {
 
   public static int numUniqueEmails_split(String[] emails) {
     Set<String> sentEmails = new HashSet();
-    if(emails == null) {
+    if (emails == null) {
       return 0;
     }
 
-    for(String email : emails) {
+    for (String email : emails) {
       String[] parts = email.split("\\@");
       String[] partsForPlus = parts[0].split("\\+");
       String[] partsForDot = partsForPlus[0].split("\\.");
       StringBuilder emailM = new StringBuilder();
-      for(String part : partsForDot) {
+      for (String part : partsForDot) {
         emailM.append(part);
       }
-      emailM.append("@"+parts[1]);
+      emailM.append("@" + parts[1]);
       sentEmails.add(emailM.toString());
     }
     return sentEmails.size();
