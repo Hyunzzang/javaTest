@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/MaxProductOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/NumberOfDiscIntersections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Brackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/BinaryGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/CountDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/CountDiv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/GenomicRangeQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/GenomicRangeQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/MaxCounters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/MaxCounters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/MinAvgTwoSlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/MinAvgTwoSlice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/PassingCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/PassingCars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/PermCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/PermCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/TapeEquilibrium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/TapeEquilibrium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/FindAllAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MissingRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MissingRanges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/LongestSubMostTwoDist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/LongestSubMostTwoDist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/UniqueEamilAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/UniqueEamilAddress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +49,8 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfDiscIntersections.test">
-    <configuration name="CountDiv.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Brackets.test">
+    <configuration name="Brackets.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -76,23 +59,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.CountDiv" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenomicRangeQuery.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.GenomicRangeQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Brackets" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -147,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Triangle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Triangle" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="javaTest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zzang.test.TestApplication" />
@@ -155,20 +138,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="JUnit.CountDiv.test" />
-      <item itemvalue="JUnit.GenomicRangeQuery.test" />
       <item itemvalue="JUnit.MinAvgTwoSlice.test" />
       <item itemvalue="JUnit.MaxProductOfThree.test" />
       <item itemvalue="JUnit.NumberOfDiscIntersections.test" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="JUnit.Triangle.test" />
+      <item itemvalue="JUnit.Brackets.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Brackets.test" />
+        <item itemvalue="JUnit.Triangle.test" />
         <item itemvalue="JUnit.NumberOfDiscIntersections.test" />
         <item itemvalue="JUnit.MaxProductOfThree.test" />
         <item itemvalue="JUnit.MinAvgTwoSlice.test" />
-        <item itemvalue="JUnit.GenomicRangeQuery.test" />
-        <item itemvalue="JUnit.CountDiv.test" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +173,8 @@
       <workItem from="1609212484438" duration="32402000" />
       <workItem from="1609835037575" duration="279000" />
       <workItem from="1609835486932" duration="1653000" />
-      <workItem from="1609916092150" duration="56217000" />
+      <workItem from="1609916092150" duration="56814000" />
+      <workItem from="1610593006416" duration="9606000" />
     </task>
     <servers />
   </component>
@@ -236,46 +220,46 @@
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="475" height="466" key="DebuggerActiveHint/0.25.1920.1090@0.25.1920.1090" timestamp="1610341456813" />
-    <state width="1255" height="284" key="GridCell.Tab.0.bottom" timestamp="1610529230282">
+    <state width="1255" height="284" key="GridCell.Tab.0.bottom" timestamp="1610605810291">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1255" height="284" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1610529230282" />
-    <state width="1255" height="284" key="GridCell.Tab.0.center" timestamp="1610529230282">
+    <state width="1255" height="284" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1610605810291" />
+    <state width="1255" height="284" key="GridCell.Tab.0.center" timestamp="1610605810290">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401577" />
-    <state width="1255" height="284" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1610529230282" />
-    <state width="1255" height="284" key="GridCell.Tab.0.left" timestamp="1610529230281">
+    <state width="1255" height="284" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1610605810290" />
+    <state width="1255" height="284" key="GridCell.Tab.0.left" timestamp="1610605810290">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401577" />
-    <state width="1255" height="284" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1610529230281" />
-    <state width="1255" height="284" key="GridCell.Tab.0.right" timestamp="1610529230282">
+    <state width="1255" height="284" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1610605810290" />
+    <state width="1255" height="284" key="GridCell.Tab.0.right" timestamp="1610605810291">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1255" height="284" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1610529230282" />
-    <state width="1255" height="350" key="GridCell.Tab.1.bottom" timestamp="1610526704547">
+    <state width="1255" height="284" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1610605810291" />
+    <state width="1255" height="350" key="GridCell.Tab.1.bottom" timestamp="1610605709803">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401579" />
-    <state width="1255" height="350" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1610526704547" />
-    <state width="1255" height="350" key="GridCell.Tab.1.center" timestamp="1610526704546">
+    <state width="1255" height="350" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1610605709803" />
+    <state width="1255" height="350" key="GridCell.Tab.1.center" timestamp="1610605709802">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.center/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1255" height="350" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1610526704546" />
-    <state width="1255" height="350" key="GridCell.Tab.1.left" timestamp="1610526704546">
+    <state width="1255" height="350" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1610605709802" />
+    <state width="1255" height="350" key="GridCell.Tab.1.left" timestamp="1610605709802">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.left/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401578" />
-    <state width="1255" height="350" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1610526704546" />
-    <state width="1255" height="350" key="GridCell.Tab.1.right" timestamp="1610526704547">
+    <state width="1255" height="350" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1610605709802" />
+    <state width="1255" height="350" key="GridCell.Tab.1.right" timestamp="1610605709802">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1358" height="334" key="GridCell.Tab.1.right/0.23.1920.1097@0.23.1920.1097" timestamp="1602081401579" />
-    <state width="1255" height="350" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1610526704547" />
+    <state width="1255" height="350" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1610605709802" />
     <state width="1358" height="334" key="GridCell.Tab.2.bottom" timestamp="1602081401579">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
