@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Dominator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/EquiLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/Nesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/codility/StoneWall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javaTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/test.kotlin_module" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,9 +54,21 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.Brackets.test">
-    <configuration name="Brackets.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EquiLeader.test">
+    <configuration name="Dominator.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.codility.*" />
@@ -59,15 +76,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Brackets" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Dominator" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProductOfThree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
+    <configuration name="EquiLeader.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.codility.*" />
@@ -75,15 +92,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.MaxProductOfThree" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.EquiLeader" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAvgTwoSlice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
+    <configuration name="MaxCounters.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.codility.*" />
@@ -91,15 +108,31 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.MinAvgTwoSlice" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.MaxCounters" />
+      <option name="METHOD_NAME" value="solution" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nesting.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.codility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Nesting" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfDiscIntersections.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
+    <configuration name="StoneWall.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.codility.*" />
@@ -107,23 +140,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.NumberOfDiscIntersections" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Triangle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Triangle" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.StoneWall" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -138,20 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MinAvgTwoSlice.test" />
-      <item itemvalue="JUnit.MaxProductOfThree.test" />
-      <item itemvalue="JUnit.NumberOfDiscIntersections.test" />
-      <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="JUnit.Triangle.test" />
-      <item itemvalue="JUnit.Brackets.test" />
+      <item itemvalue="JUnit.MaxCounters.solution" />
+      <item itemvalue="JUnit.Nesting.test" />
+      <item itemvalue="JUnit.StoneWall.test" />
+      <item itemvalue="JUnit.Dominator.test" />
+      <item itemvalue="JUnit.EquiLeader.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Brackets.test" />
-        <item itemvalue="JUnit.Triangle.test" />
-        <item itemvalue="JUnit.NumberOfDiscIntersections.test" />
-        <item itemvalue="JUnit.MaxProductOfThree.test" />
-        <item itemvalue="JUnit.MinAvgTwoSlice.test" />
+        <item itemvalue="JUnit.EquiLeader.test" />
+        <item itemvalue="JUnit.Dominator.test" />
+        <item itemvalue="JUnit.StoneWall.test" />
+        <item itemvalue="JUnit.Nesting.test" />
+        <item itemvalue="JUnit.MaxCounters.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -296,6 +312,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/codility/EquiLeader.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
