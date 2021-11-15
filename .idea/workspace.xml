@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/algorithms/MaximumSubsequenceSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javaTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/BaseTest.java" afterDir="false" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +43,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -36,11 +50,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550406467821" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +68,7 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.RemoveInvalidParentheses">
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.PlusOne" />
@@ -59,6 +76,15 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.top50.array.*" />
+=======
+  <component name="RunManager" selected="JUnit.BaseTest.stringTest">
+    <configuration name="MaximumSubsequenceSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.algorithms.MaximumSubsequenceSum" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.algorithms.*" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,6 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.graph.RemoveInvalidParentheses" />
       <module name="javaTest" />
@@ -75,6 +102,47 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+    <configuration name="BaseTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zzang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.BaseTest" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="Dominator.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+=======
+    <configuration name="BaseTest.stringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaTest" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Brackets" />
+      <option name="METHOD_NAME" value="test" />
+=======
+      <option name="PACKAGE_NAME" value="com.zzang.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.BaseTest" />
+      <option name="METHOD_NAME" value="stringTest" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,14 +156,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Brackets" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Dominator" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nesting.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EquiLeader.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -104,23 +172,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.Nesting" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StoneWall.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zzang.test.codility" />
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.StoneWall" />
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.codility.EquiLeader" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,6 +187,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="JUnit.Nesting.test" />
       <item itemvalue="JUnit.StoneWall.test" />
@@ -149,9 +202,26 @@
         <item itemvalue="JUnit.Dominator.test" />
         <item itemvalue="JUnit.StoneWall.test" />
         <item itemvalue="JUnit.Nesting.test" />
+=======
+      <item itemvalue="Application.MaximumSubsequenceSum" />
+      <item itemvalue="JUnit.Dominator.test" />
+      <item itemvalue="JUnit.EquiLeader.test" />
+      <item itemvalue="JUnit.BaseTest.listTest" />
+      <item itemvalue="JUnit.BaseTest.stringTest" />
+      <item itemvalue="Spring Boot.TestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BaseTest.stringTest" />
+        <item itemvalue="Application.MaximumSubsequenceSum" />
+        <item itemvalue="JUnit.BaseTest.listTest" />
+        <item itemvalue="JUnit.EquiLeader.test" />
+        <item itemvalue="JUnit.Dominator.test" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -172,28 +242,33 @@
       <workItem from="1609835486932" duration="1653000" />
       <workItem from="1609916092150" duration="56814000" />
       <workItem from="1610593006416" duration="9606000" />
+<<<<<<< HEAD
       <workItem from="1631692647155" duration="262000" />
       <workItem from="1631692942975" duration="1049000" />
       <workItem from="1632703579946" duration="2097000" />
       <workItem from="1633504094641" duration="430000" />
+=======
+      <workItem from="1629963018523" duration="2664000" />
+      <workItem from="1630279834903" duration="3093000" />
+      <workItem from="1630452139169" duration="11000" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="WindowStateProjectService">
     <state x="868" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1631692889088">
@@ -216,6 +291,9 @@
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
     <state width="1414" height="284" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1633562638657" />
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> a5fd2fc0702b0a8522d9857e824098c6228c3f18
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,11 +302,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/codility/EquiLeader.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
