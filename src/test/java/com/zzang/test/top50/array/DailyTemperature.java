@@ -9,28 +9,46 @@ public class DailyTemperature {
 
   public static void main(String[] args) {
     int[] nums = {73, 74, 75, 71, 69, 72, 76, 73};
+//    int[] nums = {30,40,50,60};
+
     int[] res = dailyTemperatures(nums);
 //		int[] res = dailyTemperatures_back(nums);
+
+//    int[] res = dailyTemperatures_3(nums);
     System.out.println("====result===");
     for (int i : res) {
       System.out.print(i + " ");
     }
   }
 
+
+  public static int[] dailyTemperatures_3(int[] temperatures) {
+    int[] res = new int[temperatures.length];
+
+    for (int i = 0; i < temperatures.length; i++) {
+      int count = 0;
+      for (int j = i+1; j < temperatures.length; j++) {
+        count++;
+        if (temperatures[i] < temperatures[j]) {
+          res[i] = count;
+          break;
+        }
+      }
+    }
+
+    return res;
+  }
+
   public static int[] dailyTemperatures(int[] temperatures) {
     Stack<Integer> stack = new Stack<>();
     int[] ret = new int[temperatures.length];
+
     for (int i = 0; i < temperatures.length; i++) {
-      System.out.println("i:" + i + " " + temperatures[i]);
       while (!stack.isEmpty() && temperatures[stack.peek()] < temperatures[i]) {
-        System.out.println("b: " + temperatures[i]);
         int index = stack.pop();
-        System.out.println("index: " + index);
-        System.out.println("i: " + i + " index " + index + " " + (i - index));
         ret[index] = i - index;
       }
       stack.push(i);
-      System.out.println("");
     }
     return ret;
   }

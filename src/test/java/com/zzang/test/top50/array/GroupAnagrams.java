@@ -3,8 +3,10 @@ package com.zzang.test.top50.array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class GroupAnagrams {
 
@@ -12,8 +14,45 @@ public class GroupAnagrams {
 
     String[] list = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
-    System.out.println(groupAnagrams(list));
+    System.out.println(groupAnagrams_1(list));
   }
+
+  public static List<List<String>> groupAnagrams_1(String[] strs) {
+    if (strs == null || strs.length == 0) {
+      return new ArrayList<>();
+    }
+
+    Map<String, List<String>> mapVal = new HashMap<>();
+   for (String word: strs) {
+     char[] chars = word.toCharArray();
+     Arrays.sort(chars);
+     String key = new String(chars);
+
+     if (mapVal.containsKey(key)) {
+       mapVal.get(key).add(word);
+     } else {
+       List<String> valList = new ArrayList<>();
+       valList.add(word);
+       mapVal.put(key, valList);
+     }
+   }
+
+    return new ArrayList<>(mapVal.values());
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   public static List<List<String>> groupAnagrams(String[] strs) {
     if (strs == null || strs.length == 0) {

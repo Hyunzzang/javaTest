@@ -7,8 +7,53 @@ public class SpiralMatrix {
 
   public static void main(String[] args) {
     int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    System.out.println(solve(matrix));
+//    System.out.println(solve(matrix));
+
+    System.out.println(spiralOrder_1(matrix));
   }
+
+  public static List<Integer> spiralOrder_1(int[][] matrix) {
+    List<Integer> resList = new ArrayList<>();
+    if (matrix == null || matrix.length == 0) {
+      return resList;
+    }
+
+    int colLimit = matrix[0].length-1;
+    int rowLimit = matrix.length-1;
+    int colPoint = 0;
+    int rowPoint = 0;
+
+    while (colPoint <= colLimit && rowPoint <= rowLimit) {
+      for (int i = colPoint; i <= colLimit; i++) {
+        resList.add(matrix[rowPoint][i]);
+      }
+      rowPoint++;
+
+      for (int i = rowPoint; i <= rowLimit; i++) {
+        resList.add(matrix[i][colLimit]);
+      }
+      colLimit--;
+
+      if (rowPoint <= rowLimit) {
+        for (int i = colLimit; i >= colPoint; i--) {
+          resList.add(matrix[rowLimit][i]);
+        }
+      }
+      rowLimit--;
+
+      if (colPoint <= colLimit) {
+        if (rowPoint <= rowLimit) {
+          for (int i = rowLimit; i >= rowPoint; i--) {
+            resList.add(matrix[i][colPoint]);
+          }
+        }
+      }
+      colPoint++;
+    }
+
+    return resList;
+  }
+
 
   public static List<Integer> solve(int[][] matrix) {
     // 1

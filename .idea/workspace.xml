@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/JewelsAndStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/LicenseKeyFormatting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/FindAllAnagramInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/LongestSubMostTwoDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/LongestSubWithoutRepeatChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/KClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRoom2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRoom2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MeetingRooms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MergeInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MergeInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/DailyTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/DailyTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/TrappingRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,13 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.MergeInterval">
-    <configuration name="LicenseKeyFormatting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.string.LicenseKeyFormatting" />
+  <component name="RunManager" selected="Application.FindAllAnagramInAString">
+    <configuration name="FindAllAnagramInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.FindAllAnagramInAString" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.string.*" />
+          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,8 +69,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRoom2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.MeetingRoom2" />
+    <configuration name="LongestSubMostTwoDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.LongestSubMostTwoDistinct" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubWithoutRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.LongestSubWithoutRepeatChar" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.MissingRanges" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
@@ -81,38 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.MeetingRooms" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.SpiralMatrix" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zzang.test.top50.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.MergeInterval" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusOne (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.string.PlusOne" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,20 +129,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MissingRanges" />
       <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Application.LicenseKeyFormatting" />
-      <item itemvalue="Application.PlusOne (1)" />
-      <item itemvalue="Application.MeetingRooms" />
-      <item itemvalue="Application.MeetingRoom2" />
-      <item itemvalue="Application.MergeInterval" />
+      <item itemvalue="Application.SpiralMatrix" />
+      <item itemvalue="Application.LongestSubWithoutRepeatChar" />
+      <item itemvalue="Application.LongestSubMostTwoDistinct" />
+      <item itemvalue="Application.FindAllAnagramInAString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeInterval" />
-        <item itemvalue="Application.MeetingRoom2" />
-        <item itemvalue="Application.MeetingRooms" />
-        <item itemvalue="Application.PlusOne (1)" />
-        <item itemvalue="Application.LicenseKeyFormatting" />
+        <item itemvalue="Application.FindAllAnagramInAString" />
+        <item itemvalue="Application.LongestSubMostTwoDistinct" />
+        <item itemvalue="Application.LongestSubWithoutRepeatChar" />
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.MissingRanges" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +170,7 @@
       <workItem from="1631692942975" duration="1049000" />
       <workItem from="1632703579946" duration="2097000" />
       <workItem from="1633504094641" duration="430000" />
+      <workItem from="1642366173878" duration="10993000" />
     </task>
     <servers />
   </component>
@@ -199,46 +201,54 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1414" height="288" key="GridCell.Tab.0.bottom" timestamp="1641354859200">
+    <state width="1414" height="252" key="GridCell.Tab.0.bottom" timestamp="1642428576343">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859200" />
+    <state width="1414" height="252" key="GridCell.Tab.0.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576343" />
     <state width="1414" height="288" key="GridCell.Tab.0.bottom/0.25.1920.1091@0.25.1920.1091" timestamp="1641354645131" />
-    <state width="1414" height="288" key="GridCell.Tab.0.center" timestamp="1641354859199">
+    <state width="1414" height="252" key="GridCell.Tab.0.center" timestamp="1642428576342">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859199" />
+    <state width="1414" height="252" key="GridCell.Tab.0.center/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576342" />
     <state width="1414" height="288" key="GridCell.Tab.0.center/0.25.1920.1091@0.25.1920.1091" timestamp="1641354645129" />
-    <state width="1414" height="288" key="GridCell.Tab.0.left" timestamp="1641354859195">
+    <state width="1414" height="252" key="GridCell.Tab.0.left" timestamp="1642428576342">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859195" />
+    <state width="1414" height="252" key="GridCell.Tab.0.left/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576342" />
     <state width="1414" height="288" key="GridCell.Tab.0.left/0.25.1920.1091@0.25.1920.1091" timestamp="1641354645128" />
-    <state width="1414" height="288" key="GridCell.Tab.0.right" timestamp="1641354859199">
+    <state width="1414" height="252" key="GridCell.Tab.0.right" timestamp="1642428576342">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859199" />
+    <state width="1414" height="252" key="GridCell.Tab.0.right/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576342" />
     <state width="1414" height="288" key="GridCell.Tab.0.right/0.25.1920.1091@0.25.1920.1091" timestamp="1641354645130" />
-    <state width="1414" height="288" key="GridCell.Tab.1.bottom" timestamp="1641354859097">
+    <state width="1414" height="252" key="GridCell.Tab.1.bottom" timestamp="1642428576344">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859097" />
+    <state width="1414" height="252" key="GridCell.Tab.1.bottom/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576344" />
     <state width="1414" height="288" key="GridCell.Tab.1.bottom/0.25.1920.1091@0.25.1920.1091" timestamp="1641354622487" />
-    <state width="1414" height="288" key="GridCell.Tab.1.center" timestamp="1641354859097">
+    <state width="1414" height="252" key="GridCell.Tab.1.center" timestamp="1642428576343">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859097" />
+    <state width="1414" height="252" key="GridCell.Tab.1.center/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576343" />
     <state width="1414" height="288" key="GridCell.Tab.1.center/0.25.1920.1091@0.25.1920.1091" timestamp="1641354622486" />
-    <state width="1414" height="288" key="GridCell.Tab.1.left" timestamp="1641354859097">
+    <state width="1414" height="252" key="GridCell.Tab.1.left" timestamp="1642428576343">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859097" />
+    <state width="1414" height="252" key="GridCell.Tab.1.left/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576343" />
     <state width="1414" height="288" key="GridCell.Tab.1.left/0.25.1920.1091@0.25.1920.1091" timestamp="1641354622485" />
-    <state width="1414" height="288" key="GridCell.Tab.1.right" timestamp="1641354859097">
+    <state width="1414" height="252" key="GridCell.Tab.1.right" timestamp="1642428576344">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
-    <state width="1414" height="288" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1641354859097" />
+    <state width="1414" height="252" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576344" />
     <state width="1414" height="288" key="GridCell.Tab.1.right/0.25.1920.1091@0.25.1920.1091" timestamp="1641354622486" />
+    <state x="556" y="130" width="1256" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642420751839">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="556" y="130" width="1256" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1920.1090@0.25.1920.1090" timestamp="1642420751839" />
+    <state x="849" y="255" key="run.anything.popup" timestamp="1642418954989">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="849" y="255" key="run.anything.popup/0.25.1920.1090@0.25.1920.1090" timestamp="1642418954989" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
