@@ -201,6 +201,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="773" y="153" key="CommitChangelistDialog2" timestamp="1642428921816">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="773" y="153" key="CommitChangelistDialog2/0.25.1920.1090@0.25.1920.1090" timestamp="1642428921816" />
     <state width="1414" height="252" key="GridCell.Tab.0.bottom" timestamp="1642428576343">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
@@ -241,6 +245,10 @@
     </state>
     <state width="1414" height="252" key="GridCell.Tab.1.right/0.25.1920.1090@0.25.1920.1090" timestamp="1642428576344" />
     <state width="1414" height="288" key="GridCell.Tab.1.right/0.25.1920.1091@0.25.1920.1091" timestamp="1641354622486" />
+    <state x="784" y="290" key="Vcs.Push.Dialog.v2" timestamp="1642428924074">
+      <screen x="0" y="25" width="1920" height="1090" />
+    </state>
+    <state x="784" y="290" key="Vcs.Push.Dialog.v2/0.25.1920.1090@0.25.1920.1090" timestamp="1642428924074" />
     <state x="556" y="130" width="1256" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1642420751839">
       <screen x="0" y="25" width="1920" height="1090" />
     </state>
