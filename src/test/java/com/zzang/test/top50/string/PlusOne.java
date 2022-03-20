@@ -24,7 +24,8 @@ public class PlusOne {
   }
 
   public static void main(String[] args) {
-    int[] digits = {9,0,9};
+//    int[] digits = {9,0,9};
+    int[] digits = {1,2,4};
 
     PlusOne plusOne = new PlusOne();
     int[] res = plusOne.plusOne(digits);
