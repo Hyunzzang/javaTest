@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/coding_book/게임개발.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/coding_book/상하좌우.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/ContinuousSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_bfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/MaxOfIsland_dfs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_bfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/linked_list/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/linked_list/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/LevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/queue_stack/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/string/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/LongestSubWithoutRepeatChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/two_pointers/LongestSubWithoutRepeatChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javaTest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/NumberOfIsland_dfs_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/WordLadder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +67,7 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.ContinuousSubarraySum">
-    <configuration name="상하좌우" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.coding_book.상하좌우" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.coding_book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaxDepth">
     <configuration name="ContinuousSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.ContinuousSubarraySum" />
       <module name="javaTest" />
@@ -100,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyTemperature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.DailyTemperature" />
+    <configuration name="LongestSubWithoutRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.LongestSubWithoutRepeatChar" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.array.*" />
+          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubWithoutRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.LongestSubWithoutRepeatChar" />
+    <configuration name="MaxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.graph.MaxDepth" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
+          <option name="PATTERN" value="com.zzang.test.top50.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfIsland_dfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.graph.NumberOfIsland_dfs" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.top50.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,20 +141,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.TestApplication" />
-      <item itemvalue="Application.상하좌우" />
-      <item itemvalue="Application.DailyTemperature" />
       <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.LongestSubWithoutRepeatChar" />
       <item itemvalue="Application.ContinuousSubarraySum" />
+      <item itemvalue="Spring Boot.TestApplication" />
+      <item itemvalue="Application.NumberOfIsland_dfs" />
+      <item itemvalue="Application.MaxDepth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxDepth" />
+        <item itemvalue="Application.NumberOfIsland_dfs" />
         <item itemvalue="Application.ContinuousSubarraySum" />
         <item itemvalue="Application.LongestSubWithoutRepeatChar" />
         <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.DailyTemperature" />
-        <item itemvalue="Application.상하좌우" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +184,8 @@
       <workItem from="1632703579946" duration="2097000" />
       <workItem from="1633504094641" duration="430000" />
       <workItem from="1642366173878" duration="13288000" />
-      <workItem from="1647600356925" duration="16919000" />
+      <workItem from="1647600356925" duration="18028000" />
+      <workItem from="1647863392838" duration="4237000" />
     </task>
     <task id="LOCAL-00001" summary="코딩 테스트 추가">
       <created>1642428922068</created>
