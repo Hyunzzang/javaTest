@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
+    <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="코딩 테스트 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/coding_book/최단거리01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/coding_book/최단거리_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/coding_book/최단거리_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_bfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_dfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +48,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550406467821" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,9 +143,9 @@
       <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.LongestSubWithoutRepeatChar" />
       <item itemvalue="Application.ContinuousSubarraySum" />
-      <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.NumberOfIsland_dfs" />
       <item itemvalue="Application.MaxDepth" />
+      <item itemvalue="Spring Boot.TestApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -184,6 +185,7 @@
       <workItem from="1642366173878" duration="13288000" />
       <workItem from="1647600356925" duration="18028000" />
       <workItem from="1647863392838" duration="6796000" />
+      <workItem from="1648006389227" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="코딩 테스트 추가">
       <created>1642428922068</created>
