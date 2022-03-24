@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d70afb1b-370d-44e0-b2d2-ae3019f6fb16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/hacker/Test_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzang/test/hacker/_124_나라의_숫자.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_bfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_bfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_dfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/Maze1_dfs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/graph/RemoveInvalidParentheses2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/UniquePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/UniquePath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,26 +66,13 @@
     <property name="project.structure.side.proportion" value="0.27323943" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.MaxDepth">
-    <configuration name="ContinuousSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.ContinuousSubarraySum" />
+  <component name="RunManager" selected="Application.ClimbingStairs">
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.dynamic.ClimbingStairs" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestSubWithoutRepeatChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.two_pointers.LongestSubWithoutRepeatChar" />
-      <module name="javaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.two_pointers.*" />
+          <option name="PATTERN" value="com.zzang.test.top50.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.array.SpiralMatrix" />
+    <configuration name="Test_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.hacker.Test_01" />
       <module name="javaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzang.test.top50.array.*" />
+          <option name="PATTERN" value="com.zzang.test.hacker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniquePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzang.test.top50.dynamic.UniquePath" />
+      <module name="javaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzang.test.top50.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,20 +140,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpiralMatrix" />
-      <item itemvalue="Application.LongestSubWithoutRepeatChar" />
-      <item itemvalue="Application.ContinuousSubarraySum" />
       <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Application.NumberOfIsland_dfs" />
       <item itemvalue="Application.MaxDepth" />
+      <item itemvalue="Application.Test_01" />
+      <item itemvalue="Application.UniquePath" />
+      <item itemvalue="Application.ClimbingStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbingStairs" />
+        <item itemvalue="Application.UniquePath" />
+        <item itemvalue="Application.Test_01" />
         <item itemvalue="Application.MaxDepth" />
         <item itemvalue="Application.NumberOfIsland_dfs" />
-        <item itemvalue="Application.ContinuousSubarraySum" />
-        <item itemvalue="Application.LongestSubWithoutRepeatChar" />
-        <item itemvalue="Application.SpiralMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,7 @@
       <workItem from="1633504094641" duration="430000" />
       <workItem from="1642366173878" duration="13288000" />
       <workItem from="1647600356925" duration="18028000" />
-      <workItem from="1647863392838" duration="6796000" />
+      <workItem from="1647863392838" duration="12794000" />
     </task>
     <task id="LOCAL-00001" summary="코딩 테스트 추가">
       <created>1642428922068</created>
@@ -235,6 +236,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/top50/array/SpiralMatrix.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/zzang/test/top50/dynamic/UniquePath.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
