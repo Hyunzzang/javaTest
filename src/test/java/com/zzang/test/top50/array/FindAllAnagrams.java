@@ -1,7 +1,9 @@
 package com.zzang.test.top50.array;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class FindAllAnagrams {
 
@@ -11,7 +13,6 @@ public class FindAllAnagrams {
     String pat = "ABCD";
     System.out.println(a.findAnagrams(txt, pat));
   }
-
 
   public List<Integer> findAnagrams(String txt, String pat) {
     //1
