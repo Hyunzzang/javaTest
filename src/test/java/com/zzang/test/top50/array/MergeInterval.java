@@ -1,70 +1,71 @@
 package com.zzang.test.top50.array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.stream.Collectors;
 
 class Interval {
-  int start;
-  int end;
 
-  Interval(int s, int e) {
-    this.start = s;
-    this.end = e;
-  }
+    int start;
+    int end;
+
+    Interval(int s, int e) {
+        this.start = s;
+        this.end = e;
+    }
 }
 
+/**
+ * Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals,
+ * and return an array of the non-overlapping intervals that cover all the intervals in the input.
+ */
 public class MergeInterval {
-  public int[][] merge(int[][] intervals) {
-    if (intervals.length == 0)
-      return intervals;
 
-    Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
-
-    Queue<int[]> queue = new PriorityQueue<>((a, b) -> b[1] - a[1]);
-    queue.add(intervals[0]);
-
-    for (int i = 1; i < intervals.length; i++) {
-      if (queue.peek()[1] >= intervals[i][0]) {
-        int[] val = queue.poll();
-        if (val[1] < intervals[i][1]) {
-          val[1] = intervals[i][1];
+    public int[][] merge(int[][] intervals) {
+        if (intervals.length == 0) {
+            return intervals;
         }
-        queue.offer(val);
-      } else {
-        queue.offer(intervals[i]);
-      }
+
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+        Queue<int[]> queue = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        queue.add(intervals[0]);
+
+        for (int i = 1; i < intervals.length; i++) {
+            if (queue.peek()[1] >= intervals[i][0]) {
+                int[] val = queue.poll();
+                if (val[1] < intervals[i][1]) {
+                    val[1] = intervals[i][1];
+                }
+                queue.offer(val);
+            } else {
+                queue.offer(intervals[i]);
+            }
+        }
+
+        int[][] result = new int[queue.size()][2];
+        for (int i = 0; i < result.length; i++) {
+            int[] val = queue.poll();
+            result[i] = val;
+        }
+        Arrays.sort(result, (a, b) -> a[0] - b[0]);
+
+        return result;
     }
 
-    int[][] result = new int[queue.size()][2];
-    for (int i = 0; i < result.length; i++) {
-      int[] val = queue.poll();
-      result[i] = val;
-    }
-    Arrays.sort(result, (a, b) -> a[0] - b[0]);
-
-    return result;
-  }
-
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 //    int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
 
-    int[][] intervals = {{1,4}, {2,3}};
+        int[][] intervals = {{1, 4}, {2, 3}};
 
-    MergeInterval mergeInterval = new MergeInterval();
-    int[][] res = mergeInterval.merge(intervals);
+        MergeInterval mergeInterval = new MergeInterval();
+        int[][] res = mergeInterval.merge(intervals);
 
-    System.out.println("res: " + Arrays.stream(res).map(arr -> Arrays.toString(arr)).collect(Collectors.joining(",")));
-  }
+        System.out.println("res: " + Arrays.stream(res).map(arr -> Arrays.toString(arr))
+            .collect(Collectors.joining(",")));
+    }
 }
-
-
 
 //public class MergeInterval {
 //  public static void main(String[] args) {
