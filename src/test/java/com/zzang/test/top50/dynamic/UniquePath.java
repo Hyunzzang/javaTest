@@ -1,5 +1,7 @@
 package com.zzang.test.top50.dynamic;
 
+import java.util.Arrays;
+
 /**
  * There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e.,
  * grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The
@@ -9,13 +11,39 @@ package com.zzang.test.top50.dynamic;
  * take to reach the bottom-right corner.
  * <p>
  * The test cases are generated so that the answer will be less than or equal to 2 * 109.
+ *
+ * Input: m = 3, n = 7
+ * Output: 28
  */
 public class UniquePath {
 
     public static void main(String[] args) {
         int m = 7, n = 3;
-        System.out.println(uniquePaths(m, n));
+        System.out.println(uniquePaths3(m, n));
     }
+
+
+    public static int uniquePaths3(int m, int n) {
+        int[][] maps = new int[m][n];
+
+        Arrays.fill(maps[0], 1);
+        for (int i = 0; i < m; i++) {
+            maps[i][0] = 1;
+        }
+
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                maps[i][j] = maps[i-1][j] + maps[i][j-1];
+            }
+        }
+
+        return maps[m-1][n-1];
+    }
+
+
+
+
+
 
     public static int uniquePaths(int m, int n) {
         Integer[][] map = new Integer[m][n];
