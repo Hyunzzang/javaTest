@@ -3,6 +3,11 @@ package com.zzang.test.top50.array;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Given an m x n matrix, return all elements of the matrix in spiral order.
+ * <p>
+ * Input: matrix = [[1,2,3],[4,5,6],[7,8,9]] Output: [1,2,3,6,9,8,7,4,5]
+ */
 public class SpiralMatrix {
 
     public static void main(String[] args) {
@@ -101,9 +106,9 @@ public class SpiralMatrix {
     }
 
     public ArrayList<Integer> spiralOrder(int[][] matrix) {
-      if (matrix == null || matrix.length == 0) {
-        return new ArrayList<Integer>();
-      }
+        if (matrix == null || matrix.length == 0) {
+            return new ArrayList<Integer>();
+        }
 
         return spiralOrder(matrix, 0, 0, matrix.length, matrix[0].length);
     }

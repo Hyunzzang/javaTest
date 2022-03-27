@@ -46,8 +46,8 @@ public class JewelsAndStones {
   }
 
   public static void main(String[] args) {
-//    String jewels = "aA", stones = "aAAbbbb";
-    String jewels = "z", stones = "ZZ";
+    String jewels = "aA", stones = "aAAbbbb";
+//    String jewels = "z", stones = "ZZ";
 
     JewelsAndStones jewelsAndStones = new JewelsAndStones();
     int res = jewelsAndStones.numJewelsInStones(jewels, stones);

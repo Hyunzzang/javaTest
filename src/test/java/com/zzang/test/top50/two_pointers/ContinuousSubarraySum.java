@@ -4,17 +4,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Given an integer array nums and an integer k, return true if nums has a continuous subarray of size at least two whose elements sum up to a multiple of k, or false otherwise.
- *
- * An integer x is a multiple of k if there exists an integer n such that x = n * k. 0 is always a multiple of k.
+ * Given an integer array nums and an integer k, return true if nums has a continuous subarray of
+ * size at least two whose elements sum up to a multiple of k, or false otherwise.
+ * <p>
+ * An integer x is a multiple of k if there exists an integer n such that x = n * k. 0 is always a
+ * multiple of k.
+ * <p>
  */
 public class ContinuousSubarraySum {
 
     public static void main(String[] args) {
         ContinuousSubarraySum a = new ContinuousSubarraySum();
-        int[] nums= {23,2,4,6,7};
-        int k = 6;
-        System.out.println(a.checkSubarraySum2(nums, k));
+//        int[] nums= {23,2,4,6,7};
+//        int k = 6;
+        int[] nums = {5, 0, 0, 0};
+        int k = 3;
+        System.out.println(a.checkSubarraySumWithMod_2(nums, k));
     }
 
     public boolean checkSubarraySum(int[] nums, int k) {
@@ -50,12 +55,12 @@ public class ContinuousSubarraySum {
 
 
     public boolean checkSubarraySumWithMod_2(int[] nums, int k) {
-        HashMap<Integer,Integer> subArrSum= new HashMap<>();
+        HashMap<Integer, Integer> subArrSum = new HashMap<>();
 
-        int accmulSum=nums[0];
-        subArrSum.put(accmulSum%k,0);
+        int accmulSum = nums[0];
+        subArrSum.put(accmulSum % k, 0);
         for (int i = 1; i < nums.length; i++) {
-            accmulSum=accmulSum+nums[i];
+            accmulSum = accmulSum + nums[i];
             int mod = accmulSum % k;
             if (mod == 0) {
                 return true;
@@ -69,12 +74,12 @@ public class ContinuousSubarraySum {
     }
 
 
-
     public boolean checkSubarraySum2(int[] nums, int k) {
-        int subArrSum = nums[0];
+        int subArrSum = 0;
+        int mod = 0;
         for (int i = 0; i < nums.length; i++) {
-            subArrSum += nums[i];
-            if (subArrSum==0 || subArrSum >= k && ((subArrSum % k) == 0)) {
+            mod = (nums[i] + mod) % k;
+            if (mod == 0) {
                 return true;
             }
         }
