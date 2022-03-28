@@ -14,7 +14,7 @@ public class LetterCombi {
 
     public static void main(String[] args) {
         LetterCombi a = new LetterCombi();
-        a.solve("23");
+        System.out.println(a.solve("23"));
     }
 
     public List<String> solve(String digits) {
