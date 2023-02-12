@@ -1,0 +1,116 @@
+public class Payment {
+    public static final int CASH = 1;
+    public static final int CREDIT_CARD = 2;
+    public static final int DEBIT_CARD = 3;
+
+    private int paymentMethod;
+
+    public Payment(int paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public void pay(double amount) {
+        switch (paymentMethod) {
+            case CASH:
+                System.out.println("Paying " + amount + " using cash.");
+                break;
+            case CREDIT_CARD:
+                System.out.println("Paying " + amount + " using credit card.");
+                break;
+            case DEBIT_CARD:
+                System.out.println("Paying " + amount + " using debit card.");
+                break;
+            default:
+                System.out.println("Invalid payment method.");
+        }
+    }
+}
+Type-Object Pattern 적용 후 코드:
+
+java
+Copy code
+interface PaymentMethod {
+    void pay(double amount);
+}
+
+class CashPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using cash.");
+    }
+}
+
+class CreditCardPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using credit card.");
+    }
+}
+
+class DebitCardPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using debit card.");
+    }
+}
+
+class Payment {
+    private PaymentMethod paymentMethod;
+
+    public Payment(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public void setPaymentMethod(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public void pay(double amount) {
+        paymentMethod.pay(amount);
+    }
+}
+Type-Object Pattern 적용 전 코드에서는 switch-case 구문을 사용하여 결제 방식에 따른 결제 구현을 수행하였지만, Type-Object Pattern 적용 후 코드에서는 각 결제 방식을 표현하는 클래스를 정의하였고, 결제 구현을 위임하여 결제 로직을 간소화 할 수
+
+
+
+
+
+
+
+
+
+
+interface PaymentMethod {
+    void pay(double amount);
+}
+
+class CashPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using cash.");
+    }
+}
+
+class CreditCardPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using credit card.");
+    }
+}
+
+class DebitCardPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paying " + amount + " using debit card.");
+    }
+}
+
+class Payment {
+    private PaymentMethod paymentMethod;
+
+    public Payment(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public void setPaymentMethod(PaymentMethod paymentMethod) {
+        this.paymentMethod = paymentMethod;
+    }
+
+    public void pay(double amount) {
+        paymentMethod.pay(amount);
+    }
+}
