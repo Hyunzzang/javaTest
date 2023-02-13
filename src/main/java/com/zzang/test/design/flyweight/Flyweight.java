@@ -1,4 +1,4 @@
-package com.zzang.test.desion.flyweight;
+package com.zzang.test.design.flyweight;
 
 public interface Flyweight {
     void operation(int extrinsicState);

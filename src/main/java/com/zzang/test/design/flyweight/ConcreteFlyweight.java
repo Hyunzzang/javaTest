@@ -1,4 +1,4 @@
-package com.zzang.test.desion.flyweight;
+package com.zzang.test.design.flyweight;
 
 public class ConcreteFlyweight implements Flyweight {
     private int intrinsicState;

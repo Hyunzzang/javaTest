@@ -1,4 +1,4 @@
-package com.zzang.test.desion.flyweight;
+package com.zzang.test.design.flyweight;
 
 public class FlyweightExample {
     public static void main(String[] args) {

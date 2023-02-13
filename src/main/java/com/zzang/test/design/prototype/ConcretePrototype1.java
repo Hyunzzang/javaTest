@@ -1,4 +1,4 @@
-package com.zzang.test.desion.prototype;
+package com.zzang.test.design.prototype;
 
 public class ConcretePrototype1 implements Prototype {
     private String field;

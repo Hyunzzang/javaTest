@@ -1,4 +1,4 @@
-package com.zzang.test.desion.typeobjectpattern.gpt;
+package com.zzang.test.design.typeobjectpattern.gpt;
 
 public class Product {
     private ProductType productType;

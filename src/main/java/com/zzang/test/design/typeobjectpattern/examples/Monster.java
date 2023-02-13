@@ -1,4 +1,4 @@
-package com.zzang.test.desion.typeobjectpattern.examples;
+package com.zzang.test.design.typeobjectpattern.examples;
 
 import lombok.Getter;
 import lombok.Setter;
