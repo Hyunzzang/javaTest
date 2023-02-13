@@ -1,4 +1,4 @@
-# Types as Objects Pattern
+# Type Object Pattern
 
 > Type Object 디자인 패턴은 하나의 클래스가 수많은 하위 클래스를 갖거나, 그 하위 클래스의 개수를 소프트웨어 개발시에 예측할 수 없는 상황을 해결하고자 제시된 패턴
 
